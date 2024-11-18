@@ -81,9 +81,8 @@ MaMusic/
 
 ## 📋 **Funcionalidades**
 
-- Exibição dos gêneros musicais favoritos em cards dinâmicos.
-- Página detalhada para cada artista.
-- Playlist personalizada para demonstrar gostos musicais.
+- Exibição dos meus artistas favoritos em cards dinâmicos.
+- Página detalhada para meus 10 álbuns favoritos.
 - Tema escuro/claro ajustável pelo usuário (opcional).
 - Design responsivo para uma ótima experiência em dispositivos móveis.
 
