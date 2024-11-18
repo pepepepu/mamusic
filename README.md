@@ -1,46 +1,132 @@
-# Getting Started with Create React App
+# 🎵 MaMusic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MaMusic** é um site que apresenta meu gosto musical, desenvolvido com **React** e **TypeScript**. Ele demonstra minhas habilidades como desenvolvedor front-end, incluindo a utilização de tecnologias modernas, design responsivo e boas práticas de desenvolvimento.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 **Visão Geral**
 
-### `npm start`
+O site **MaMusic** foi criado para mostrar:
+- 🎶 Meus gêneros musicais favoritos.
+- 👨‍🎤 Artistas que marcaram minha trajetória musical.
+- 📜 Uma playlist personalizada, com possibilidade de futuras integrações com APIs como Spotify ou Last.fm.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto faz parte do meu portfólio para demonstrar competências em React, TypeScript e integração de tecnologias.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 **Tecnologias Utilizadas**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Front-end**: React + TypeScript
+- **Estilização**: Styled Components
+- **Gerenciamento de Estado**: React Context API
+- **Navegação**: React Router
+- **Animações**: Framer Motion
+- **Versionamento**: Git e GitHub
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 **Estrutura do Projeto**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```plaintext
+MaMusic/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/           # Imagens e ícones
+│   ├── components/       # Componentes reutilizáveis
+│   ├── context/          # Context API
+│   ├── hooks/            # Ganchos da aplicação
+│   ├── routes/           # Rotas da aplicação
+│   ├── pages/            # Páginas principais
+│   ├── styles/           # Estilizações globais
+│   └── App.tsx           # Componente principal
+├── package.json          # Configurações do projeto
+├── README.md             # Documentação do projeto
+└── ...
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🌐 **Como Executar o Projeto**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pré-requisitos
+- **Node.js** (v16 ou superior)
+- Gerenciador de pacotes: npm ou yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Passos para rodar o projeto:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/MaMusic.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd MaMusic
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+5. Acesse no navegador:
+   ```
+   http://localhost:3000
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📋 **Funcionalidades**
 
-## Learn More
+- Exibição dos gêneros musicais favoritos em cards dinâmicos.
+- Página detalhada para cada artista.
+- Playlist personalizada para demonstrar gostos musicais.
+- Tema escuro/claro ajustável pelo usuário (opcional).
+- Design responsivo para uma ótima experiência em dispositivos móveis.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 **Possíveis Melhorias**
+
+- Integração com a API do Spotify para exibição de playlists reais.
+- Player de música embutido no site.
+- Recursos interativos, como busca por artistas e gêneros.
+- Painel de administrador para gerenciar conteúdos musicais.
+
+---
+
+## 🤝 **Contribuições**
+
+Contribuições são bem-vindas! Se você quiser melhorar este projeto, siga estas etapas:
+1. Faça um fork do projeto.
+2. Crie uma nova branch para suas alterações:
+   ```bash
+   git checkout -b minha-nova-funcionalidade
+   ```
+3. Faça o commit das alterações:
+   ```bash
+   git commit -m "Adicionei uma nova funcionalidade"
+   ```
+4. Envie para a branch principal:
+   ```bash
+   git push origin minha-nova-funcionalidade
+   ```
+5. Abra um Pull Request.
+
+---
+
+## 🖋️ **Autor**
+
+👨‍💻 **pp**  
+Desenvolvedor front-end e entusiasta de tecnologias web.  
+[GitHub](https://github.com/pepepepu) | [LinkedIn](https://www.linkedin.com/in/pp-oliveira/)  
+
+---
+
+## 📜 **Licença**
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+```
